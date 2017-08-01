@@ -246,7 +246,7 @@ namespace DadanBinHeap
                 }
                 //Recursive Mode test Speed
                 {
-                    var random = new Random(12);//new Random(seed);
+                    var random = new Random(seed);
                     int rand;
                     Stopwatch stopWatch = new Stopwatch();
                     stopWatch.Start();
